@@ -1538,18 +1538,6 @@ F 4 "NOT FITTED" H 7700 5600 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L78L12_SOT89 U5
-U 1 1 5DC85F25
-P 2650 6650
-F 0 "U5" H 2650 6892 50  0000 C CNN
-F 1 "MET1117A50B3G" H 2650 6801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2650 6850 50  0001 C CIN
-F 3 "" H 2650 6600 50  0001 C CNN
-F 4 " C83973" H 2650 6650 50  0001 C CNN "LCSC"
-	1    2650 6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+15V #PWR0159
 U 1 1 5DC901CA
 P 2050 6650
@@ -1656,6 +1644,17 @@ Wire Wire Line
 Connection ~ 2950 6850
 Wire Wire Line
 	2950 6650 3250 6650
-Connection ~ 2950 6650
 Connection ~ 3250 6650
+$Comp
+L Regulator_Linear:AMS1117-5.0 U1
+U 1 1 5E7E5356
+P 2650 6650
+F 0 "U1" H 2650 6892 50  0000 C CNN
+F 1 "AMS1117-5.0" H 2650 6801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2650 6850 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2750 6400 50  0001 C CNN
+	1    2650 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 6650
 $EndSCHEMATC
