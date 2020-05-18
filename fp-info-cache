@@ -1,4 +1,4 @@
-16969609654500703
+16971251274421104
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75205,8 +75205,8 @@ SCART_CONN
 
 
 0
-21
-21
+23
+22
 custom_components
 SJ1-3533NG
 
@@ -75368,6 +75368,13 @@ Cheapo_RCA_single_edge
 0
 4
 3
+videobits
+BNC_Amphenol_B6252HB-NPP3G-50_Horizontal_smallerpads
+http://www.farnell.com/datasheets/612848.pdf
+BNC Amphenol Horizontal
+0
+4
+2
 videobits
 CUI_MD-40SM
 
