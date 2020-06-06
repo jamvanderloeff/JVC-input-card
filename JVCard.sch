@@ -1653,8 +1653,20 @@ F 0 "U1" H 2650 6892 50  0000 C CNN
 F 1 "AMS1117-5.0" H 2650 6801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2650 6850 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2750 6400 50  0001 C CNN
+F 4 "C6187" H 2650 6650 50  0001 C CNN "LCSC"
 	1    2650 6650
 	1    0    0    -1  
 $EndComp
 Connection ~ 2950 6650
+$Comp
+L Mechanical:Fiducial FID101
+U 1 1 5EC7B9E1
+P 8650 5400
+F 0 "FID101" H 8735 5446 50  0000 L CNN
+F 1 "Borgar" H 8735 5355 50  0000 L CNN
+F 2 "videobits:borgar" H 8650 5400 50  0001 C CNN
+F 3 "~" H 8650 5400 50  0001 C CNN
+	1    8650 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
