@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\James\Documents\kicad\JVC\JVC-input-card\JVCard.sch</source>
-    <date>20/05/2020 03:02:05</date>
-    <tool>Eeschema (5.1.5)-2</tool>
+    <source>C:\Users\James\OneDrive\kicad\JVC\JVC-input-card\JVCard.sch</source>
+    <date>05/10/2021 07:06:19</date>
+    <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -843,6 +843,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E7E5356</tstamp>
     </comp>
+    <comp ref="FID101">
+      <value>Borgar</value>
+      <footprint>videobits:borgar</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC7B9E1</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Conn_Coaxial">
@@ -1002,6 +1010,17 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
