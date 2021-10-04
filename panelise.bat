@@ -1,0 +1,1 @@
+java -jar .\kicadutil.jar pcb --file=.\JVCardx4.kicad_pcb panel --inset=0.45 --pitch=1.1
